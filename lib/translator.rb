@@ -55,7 +55,7 @@ def get_english_meaning (library, emote)
   emoticons.each do |key, value|
 binding.pry
     if value[:japanese] == emote
-      return value
+      return key
     end
     
   end
