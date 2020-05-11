@@ -39,7 +39,7 @@ def get_japanese_emoticon (library, emote)
     value.each do |element|
       
       if element == emote 
-        return emoticons[key][value][1]
+        return emoticons[key][1]
       end
       
     end
