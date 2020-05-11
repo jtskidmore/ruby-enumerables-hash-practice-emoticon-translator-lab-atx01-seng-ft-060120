@@ -55,7 +55,7 @@ binding.pry
   emoticons.each do |key, value|
   
     if value[:japanese] == emote
-      return value[:english]
+      return value
     end
     
   end
