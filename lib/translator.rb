@@ -46,7 +46,7 @@ def get_japanese_emoticon (library, emote)
     
   end
   
-  return "Sorry, your entry is not a known emoticon."
+  return "Sorry, that emoticon was not found"
   
 end
 
