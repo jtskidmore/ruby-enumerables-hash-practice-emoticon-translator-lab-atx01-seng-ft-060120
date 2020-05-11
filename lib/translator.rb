@@ -46,6 +46,21 @@ def get_japanese_emoticon (library, emote)
   
 end
 
+
+
 def get_english_meaning
-  # code goes here
+  
+  emoticons = load_library(library)
+
+  emoticons.each do |key, value|
+  
+    if value[:japanese] == emote
+      return value[:english]
+    end
+    
+  end
+  
+  return "Sorry, that emoticon was not found"
+  
 end
+
