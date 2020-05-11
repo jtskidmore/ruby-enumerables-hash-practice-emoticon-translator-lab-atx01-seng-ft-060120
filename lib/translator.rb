@@ -48,7 +48,7 @@ end
 
 
 
-def get_english_meaning
+def get_english_meaning (library, emote)
   
   emoticons = load_library(library)
 
