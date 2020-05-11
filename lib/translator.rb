@@ -33,7 +33,7 @@ end
 def get_japanese_emoticon (library, emote)
   
   emoticons = YAML.load_file(library)
-  binding.pry
+  
   emoticons.each do |key, value|
     
     value.each do |element|
